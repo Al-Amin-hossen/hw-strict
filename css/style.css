@@ -1,0 +1,214 @@
+/* Common Css Start */
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    color: #999999;
+}
+/* Common Css End */
+/* Header Start */
+header{
+    padding: 20px 0;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.logo{
+    width: 14%;
+    float: left;
+}
+.logo img{
+    width: 100%;
+}
+.menu{
+    width: 65%;
+    float: right;
+}
+.menu ul{
+    float: right;
+}
+.menu ul li{
+    list-style: none;
+    float: left;
+}
+.menu ul li a{
+    margin: 0 15px;
+    padding: 4px 2px 2px;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #6c788a;
+    border-bottom: 1px solid transparent;
+    transition: .3s;
+}
+.menu ul li:last-child a{
+    margin-right: 0;
+}
+.menu ul li a:hover{
+    color: #2d3950;
+    border-bottom: 1px solid #2d3950;
+}
+/* Header End */
+/* Banner start */
+.banner{
+    background: url("../images/banner.jpg") center no-repeat;
+    background-size: cover;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    text-align: center;
+}
+.b_content{
+    position: relative;
+    padding: 120px 0 200px;
+}
+.b_content h1{
+    margin: 0;
+    padding: 10px 70px;
+    display: inline-block;
+    font-size: 80px;
+    text-transform: uppercase;
+    color: #fff;
+    border-bottom: 1px solid #15a4fa;
+}
+.b_content p{
+    margin-bottom: 50px;
+    color: #fff;
+    word-spacing: 1px;
+}
+.btn{
+    width: 180px;
+    height: 55px;;
+    border: 1px solid #15a4fa;
+    background: transparent;
+    color: #fff;
+    transition: .3s;
+    cursor: pointer;
+}
+.btn:hover{
+    background: #15a4fa;
+}
+.arrow{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+}
+/* Banner End */
+/* Simple Design start */
+.simple{
+    padding: 80px 0;
+    text-align: center;
+    background: #f6f9f9;
+}
+.s_content{}
+.s_content h1{
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    color: #2d3950;
+}
+.s_content p{
+    margin: 30px 0;
+    word-spacing: 1px;
+    line-height: 23px;
+}
+/* Simple Design end */
+/* Service start */
+.service{
+    padding: 60px 0;
+}
+.s_wrapper{
+    overflow: hidden;
+}
+.services{
+    width: 29%;
+    padding: 0 2%;
+    text-align: center;
+    float: left;
+}
+.icon{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    background: linear-gradient(to right, #48baff 50%, #5fc3ff 50%);
+    line-height: 130px;
+}
+.icon img{
+}
+.services h2{
+    margin: 20px;
+    font-size: 20px;
+    color: #2d3950;
+}
+.services p{
+    font-size: 15px;
+    word-spacing: 1px;
+    line-height: 23px;
+}
+/* Service end */
+/* Portfolio start */
+.portfolio{
+    padding: 60px 0;
+    text-align: center;
+    background: #f6f9f9;
+}
+.p_content{
+    overflow: hidden;
+}
+.p_content h1{
+    margin: 0;
+    font-size: 35px;
+    color: #2d3950;
+}
+.p_content p{
+    margin: 30px 0;
+    font-size: 14px;
+}
+.p_single{
+    width: 32%;
+    margin-top: 2%;
+    margin-left: 2%;
+    float: left;
+}
+.p_single:nth-child(3), .p_single:nth-child(6){
+    margin-left: 0;
+}
+.p_single img{
+    width: 100%;
+}
+.overlay{}
+.icon{}
+.icon img{}
+/* Portfolio end */
+/* Contacts start */
+.contact{
+    padding: 60px 0;
+    background: url("../images/contact-bg.png") no-repeat center;
+    text-align: center;
+}
+.c_form{
+    width: 50%;
+    margin: 0 auto;
+}
+.c_form form{}
+.name, .email{
+    display: block;
+    width: 60%;
+    height: 50px;
+    border: 1px solid #999999;
+    background: transparent;
+}
+.email{
+    /* display: block; */
+}
+.message{
+    display: block;
+}
+.check{}
+.c_label{}
+.btn{}
+/* Contacts end */
